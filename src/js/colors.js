@@ -24,6 +24,8 @@ const changer = {
 
     this.isActive = true;
 
+    startBtnRef.disabled = true;
+
     this.intervalID = setInterval(() => {
       updateBody();
     }, 1000);
@@ -34,6 +36,8 @@ const changer = {
 
     this.intervalID = null;
     this.isActive = false;
+
+    startBtnRef.disabled = false;
   },
 };
 
