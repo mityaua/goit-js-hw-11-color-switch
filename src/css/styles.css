@@ -56,12 +56,14 @@
 .bn632-hover.bn26:disabled {
   background-image: linear-gradient(
     to right,
-    #868585,
     #7b7b7b,
-    #898c8c,
-    #bababb
+    #878787,
+    #878786,
+    #878785
   );
   box-shadow: 0 4px 15px 0 rgb(61 61 62 / 75%);
+
+  cursor: not-allowed;
 }
 
 .bn632-hover {
